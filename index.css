@@ -147,3 +147,106 @@ Button {
 #addLinkButton:hover {
     background-color: #0056b3;
 }
+
+@media screen and (max-width: 1200px){
+    .main-container{
+        width: 60%;
+        height: auto;
+        background-color: #f8f8f8; 
+        margin: 2rem auto;
+        border-radius: 0.5rem;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 3rem;
+        border: 1px solid #0056b3;
+        
+    }
+
+}
+
+
+@media screen and (max-width:768px){
+    .main-container{
+        width: 80%;
+        height: auto;
+        background-color: #f8f8f8; 
+        margin: 2rem auto;
+        border-radius: 0.5rem;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 3rem;
+        border: 1px solid #0056b3;
+        
+    }
+
+    Button {
+        width: 100%;
+        padding: 1rem;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        padding: 1rem 3rem;
+        font-size: 1rem;
+        font-weight: 600;
+        border-radius: 5rem;
+        
+    }
+
+    #addLinkButton {
+        width: 100%;
+        padding: 1rem 2rem;
+        font-size: 1rem;
+        font-weight: 600;
+        
+    }
+
+}   
+
+@media screen and (max-width:320px){
+    .main-container{
+        width: 90%;
+        height: auto;
+        background-color: #f8f8f8; 
+        margin: 2rem auto;
+        border-radius: 0.5rem;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 3rem;
+        border: 1px solid #0056b3;
+        
+    }
+
+    Button {
+        width: 50%;
+        padding: 1rem;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        padding: 1rem 3rem;
+        font-size: 1rem;
+        font-weight: 600;
+        border-radius: 5rem;
+        
+    }
+
+    #addLinkButton {
+        width: 50%;
+        padding: 1rem 2rem;
+        font-size: 1rem;
+        font-weight: 600;
+        
+    }
+
+
+}   

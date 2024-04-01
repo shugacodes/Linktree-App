@@ -38,7 +38,7 @@ function handleFormSubmit(event) {
     }
 }
 
-// Function to toggle form visibility
+
 function toggleFormVisibility() {
     let form = document.getElementById("addLinkForm");
     if (form.style.display === "none") {
@@ -48,11 +48,7 @@ function toggleFormVisibility() {
     }
 }
 
-// Add event listener to form submit event
+
 document.getElementById("addLinkForm").addEventListener("submit", handleFormSubmit);
-
-// Add event listener to the "Add Link" button to toggle form visibility
 document.getElementById("addLinkButton").addEventListener("click", toggleFormVisibility);
-
-// Build linktree initially
 buildLinktree();
